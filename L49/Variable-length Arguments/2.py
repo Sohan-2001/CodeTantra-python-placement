@@ -4,6 +4,10 @@ def mySum(*args):
 	for i in args:
 		sum+=i
 	return sum
+	'''
+ 	#In One Line:
+	return sum(list(args))
+ 	'''
 
 #Write your code here
 
